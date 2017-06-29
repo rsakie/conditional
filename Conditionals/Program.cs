@@ -114,102 +114,144 @@ namespace Conditionals
 
             //{
 
-                //string loyaltyLevel = "red";
-                //switch (loyaltyLevel)
-                //{
-                //    case "yellow":
-                //        Console.WriteLine("Discount: 40%");
-                //        break;
+            //string loyaltyLevel = "red";
+            //switch (loyaltyLevel)
+            //{
+            //    case "yellow":
+            //        Console.WriteLine("Discount: 40%");
+            //        break;
 
 
-                //    case "red":
-                //        Console.WriteLine("Discount: 90%");
-                //        break;
-                //    default:
-                //        Console.WriteLine("Error!");
-                //    //        break;
-                //}
+            //    case "red":
+            //        Console.WriteLine("Discount: 90%");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Error!");
+            //    //        break;
+            //}
 
 
 
 
-                //Console.WriteLine("Spell out your number?");
+            //Console.WriteLine("Spell out your number?");
 
-                //string number = Console.ReadLine();
-                //switch (number)
-                //{
-                //    case "One":
-                //        Console.WriteLine("1");
-                //        break;
+            //string number = Console.ReadLine();
+            //switch (number)
+            //{
+            //    case "One":
+            //        Console.WriteLine("1");
+            //        break;
 
-                //    case "Two":
-                //        Console.WriteLine("2");
-                //        break;
-                //    case "Three":
-                //        Console.WriteLine("3");
-                //        break;
+            //    case "Two":
+            //        Console.WriteLine("2");
+            //        break;
+            //    case "Three":
+            //        Console.WriteLine("3");
+            //        break;
 
-                //    case "Four":
-                //        Console.WriteLine("4");
-                //        break;
+            //    case "Four":
+            //        Console.WriteLine("4");
+            //        break;
 
-                //    case "Five":
-                //        Console.WriteLine("5");
-                //        break;
+            //    case "Five":
+            //        Console.WriteLine("5");
+            //        break;
 
-                //    case "Six":
-                //        Console.WriteLine("6");
-                //        break;
-                //    case "Seven":
-                //        Console.WriteLine("7");
-                //        break;
+            //    case "Six":
+            //        Console.WriteLine("6");
+            //        break;
+            //    case "Seven":
+            //        Console.WriteLine("7");
+            //        break;
 
-                //    case "Eight":
-                //        Console.WriteLine("8");
-                //        break;
+            //    case "Eight":
+            //        Console.WriteLine("8");
+            //        break;
 
-                //    case "Nine":
-                //        Console.WriteLine("9");
-                //        break;
+            //    case "Nine":
+            //        Console.WriteLine("9");
+            //        break;
 
-                //    case "Ten":
-                //        Console.WriteLine("10");
-                //        break;
+            //    case "Ten":
+            //        Console.WriteLine("10");
+            //        break;
 
-                //    default:
-                //        Console.WriteLine("You're an eff'n moron!?");
-                //        break;
-                //}
+            //    default:
+            //        Console.WriteLine("You're an eff'n moron!?");
+            //        break;
+            //}
 
-                //ask user for 2 integers
-                //are the 2 integers equal to each other
-                //inform user if equal,  else not equal
-                //input 16, second 18
-                //Output: The numbers 16 and 18 are not equal to each other
-
-
-                //Console.WriteLine("Please type in two integers:");
-                //Console.WriteLine("What is you first number?");
-                //string A = (Console.ReadLine());
+            //ask user for 2 integers
+            //are the 2 integers equal to each other
+            //inform user if equal,  else not equal
+            //input 16, second 18
+            //Output: The numbers 16 and 18 are not equal to each other
 
 
-                //Console.WriteLine("What is your second number?");
-
-                //string B = (Console.ReadLine());
-
-                //if (A!= B)
-                //    Console.WriteLine("Your Two Numbers are unequal.");
-
-                //else if (A == B)
-                //{
-                //    Console.WriteLine("Your two numbers are equal.");
-                //}
+            //Console.WriteLine("Please type in two integers:");
+            //Console.WriteLine("What is you first number?");
+            //string A = (Console.ReadLine());
 
 
-                //Console.WriteLine(" Please enter a number?");
-                //int number = int.Parse(Console.ReadLine());
+            //Console.WriteLine("What is your second number?");
+
+            //string B = (Console.ReadLine());
+
+            //if (A!= B)
+            //    Console.WriteLine("Your Two Numbers are unequal.");
+
+            //else if (A == B)
+            //{
+            //    Console.WriteLine("Your two numbers are equal.");
+            //}
 
 
+            //Console.WriteLine(" Please enter a number?");
+            //int number = int.Parse(Console.ReadLine());
+
+            { // ask player for first number
+                Console.WriteLine("Please enter 2 numbers between 1 and 9");
+                Console.WriteLine("Enter you first number.");
+                int firstnum = int.Parse(Console.ReadLine());
+
+                // ask player for second number
+
+                Console.WriteLine("Please enter your second number.");
+                int secondnum = int.Parse(Console.ReadLine());
+                
+                    if (firstnum < 1 || firstnum > 9 || secondnum < 1 || secondnum > 9) 
+                {
+                    Console.WriteLine("Start over you suck!!");
+                }
+
+                Console.WriteLine("Now please enter a third number.");
+                int thirdnum = int.Parse(Console.ReadLine());
+
+                // assign one num to fizz and one to buzz
+
+                int fizz = thirdnum % firstnum;
+                int buzz = thirdnum % secondnum;
+
+                // test numbers for multiple of each other(else if)
+                if (fizz == 0 && buzz == 0)
+                {
+                    Console.WriteLine("fizzbuzz!!!");
+                }
+                else if (fizz == 0)
+                {
+                    Console.WriteLine("fizz!!!");
+                }
+                else if (buzz == 0)
+                {
+                    Console.WriteLine("buzz!!!");
+                }
+                else 
+                {
+                    Console.WriteLine("start over " + thirdnum);
+                }
+
+
+            }
             }
         }
     }
