@@ -68,12 +68,161 @@ namespace Conditionals
             //        break;
 
 
+            //Console.WriteLine("Demographic report based on age");
+            //Console.WriteLine("Your age will determine what category you belong in");
+            //Console.WriteLine("What is your age?");
+            //int age = int.Parse(Console.ReadLine());
+
+            //if (age >= 0 && age <= 2)
+            //{
+            //    Console.WriteLine("Print: Still in moma's arms!");
+            //}
+            //else if (age >= 3 && age <= 4)
+            //{
+            //    Console.WriteLine("Print: preschool maniac");
+            //}
+            //else if (age >= 5 && age <= 11)
+            //{
+            //    Console.WriteLine("Print: elementary school");
+            //}
+
+            //else if (age >= 12 && age <= 14)
+            //{
+            //    Console.WriteLine("Print: Middle School");
+            //}
+
+            //else if (age >= 15 && age <= 18)
+            //{
+            //    Console.WriteLine("Print: High School");
+            //}
+            //else if (age >= 19 && age <= 22)
+            //{
+            //    Console.WriteLine("Print: College");
+            //}
+            //else if (age >= 23 && age <= 65)
+            //{
+            //    Console.WriteLine("Print: Workin' for the man! :(");
+            //}
+            //else if (age >= 66 && age <= 100)
+            //{
+            //    Console.WriteLine("Print: The Golden Years!");
+            //}
+            //else if (age <= 0 && age > 100)
+            //{
+            //    Console.WriteLine("print: This program is for humans.");
+            //}
+
+            //{
+
+                //string loyaltyLevel = "red";
+                //switch (loyaltyLevel)
+                //{
+                //    case "yellow":
+                //        Console.WriteLine("Discount: 40%");
+                //        break;
+
+
+                //    case "red":
+                //        Console.WriteLine("Discount: 90%");
+                //        break;
+                //    default:
+                //        Console.WriteLine("Error!");
+                //    //        break;
+                //}
+
+
+
+
+                //Console.WriteLine("Spell out your number?");
+
+                //string number = Console.ReadLine();
+                //switch (number)
+                //{
+                //    case "One":
+                //        Console.WriteLine("1");
+                //        break;
+
+                //    case "Two":
+                //        Console.WriteLine("2");
+                //        break;
+                //    case "Three":
+                //        Console.WriteLine("3");
+                //        break;
+
+                //    case "Four":
+                //        Console.WriteLine("4");
+                //        break;
+
+                //    case "Five":
+                //        Console.WriteLine("5");
+                //        break;
+
+                //    case "Six":
+                //        Console.WriteLine("6");
+                //        break;
+                //    case "Seven":
+                //        Console.WriteLine("7");
+                //        break;
+
+                //    case "Eight":
+                //        Console.WriteLine("8");
+                //        break;
+
+                //    case "Nine":
+                //        Console.WriteLine("9");
+                //        break;
+
+                //    case "Ten":
+                //        Console.WriteLine("10");
+                //        break;
+
+                //    default:
+                //        Console.WriteLine("You're an eff'n moron!?");
+                //        break;
+                //}
+
+                //ask user for 2 integers
+                //are the 2 integers equal to each other
+                //inform user if equal,  else not equal
+                //input 16, second 18
+                //Output: The numbers 16 and 18 are not equal to each other
+
+
+                //Console.WriteLine("Please type in two integers:");
+                //Console.WriteLine("What is you first number?");
+                //string A = (Console.ReadLine());
+
+
+                //Console.WriteLine("What is your second number?");
+
+                //string B = (Console.ReadLine());
+
+                //if (A!= B)
+                //    Console.WriteLine("Your Two Numbers are unequal.");
+
+                //else if (A == B)
+                //{
+                //    Console.WriteLine("Your two numbers are equal.");
+                //}
+
+
+                //Console.WriteLine(" Please enter a number?");
+                //int number = int.Parse(Console.ReadLine());
 
 
             }
-            
-
-
         }
     }
-}
+
+   
+
+
+           
+
+   
+
+        
+        
+
+
+
